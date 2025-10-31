@@ -1,0 +1,20 @@
+# 覆盖配置
+patch:
+  menu: 
+    page_size: 8
+  schema_list:
+    - schema: double_pinyin_flypy
+    - schema: cangjie5_express
+  switcher:
+    caption: "『输入法设置』"
+    hotkeys:
+      - F8
+  fold_options: true
+  ascii_composer:
+    good_old_caps_lock: true
+    switch_key:
+      Caps_Lock: commit_code
+      Control_L: noop
+      Control_R: noop
+      Shift_L: commit_code
+      Shift_R: noop

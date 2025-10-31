@@ -1,0 +1,9 @@
+# weasel.custom.yaml
+patch:
+  style:
+    candidate_list_layout: linear # 候选词菜单横向排列，而非默认的纵向排列；
+    color_scheme: google
+  # 以下软件默认英文模式
+  app_options:
+    windowsterminal.exe:
+      ascii_mode: true

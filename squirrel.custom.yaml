@@ -1,0 +1,13 @@
+# squirrel.custom.yaml
+patch:
+  style:
+    candidate_list_layout: linear # 候选词菜单横向排列，而非默认的纵向排列；
+    color_scheme: apathy # apathy 配色方案需要花园明朝字体以显示生僻字，在 http://fonts.jp/hanazono/ 下载 hanazono-20170904.zip，将字体放入 ~/Library/Fonts/ 下。
+  # 以下软件默认英文模式
+  app_options:
+    com.microsoft.VSCode:
+      ascii_mode: true
+    dev.warp.Warp-Stable:
+      ascii_mode: true
+    com.raycast.macos:
+      ascii_mode: true
